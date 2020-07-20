@@ -1,0 +1,58 @@
+@font-face{
+    font-family: 'Jokerman';
+    src: url("fonts/Jokerman.ttf");
+    font-family: 'Comic Sans MS';
+    src: url("fonts/comic");
+}
+
+body{
+    font-size: 90%;
+    color: #666;
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+}
+
+#heading{
+    font-family: Jokerman;
+    font-size : 500%;
+    color: #FF9D3A;
+    /* background-color: rgb(68,159,234); */
+    padding: 20px;
+    height: justify;
+    width: 95%;
+    text-align: center;
+}
+
+#content{
+    font-size : 200%;
+    color: white;
+    font-family: Comic Sans MS;
+}
+
+#download_table{
+    font-size: 200%;
+    font-family: Comic Sans MS;
+}
+
+#GLES3{
+    background-color: #90d4b6;
+}
+
+#GLES2{
+    background-color: rgb(189,242,237);
+}
+
+td{
+    padding: 30px;
+    color: rgb(3,53,2);
+}
+
+a{
+    text-decoration: none;
+    color : rgb(249,53,126);
+}
+
+a:hover{
+    color: brown;
+}

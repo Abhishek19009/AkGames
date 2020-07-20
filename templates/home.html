@@ -1,8 +1,26 @@
 <html>
 <head>
-    <title> Latest Releases - Akgames </title>
+    <title> Latest Releases - Relaxgames </title>
+	<link href = "{{url_for('static', filename='style.css')}}" type="text/css" rel="stylesheet"/>
 </head>
 <body>
-    <p> Uploading Content Soon..... </p>
+    <h1 id = "heading"> OmniBall</h1>
+	</br></br>
+	<div id = "content">
+	<p id = "details"> <b>Platform</b>: Microsoft Windows</br> 
+					   <b>Developer and Designer</b>: A.K</br> 
+					   <b>Engine</b>: Godot</br>
+					   <b>System Requirements</b>: Any Graphics Card would work</br>
+	</p>
+	<p><b>Instructions</b>: Download the zip file, extract and run the application</p>
+	</br>
+		<p><b>DISCLAIMER</b>: This game is for learning purpose, not for commercial deployment</p>
+	</div>
+	</br></br>
+
+	<table id = "download_table">
+		<tr id = "GLES3"><td class = "element">OmniBall GLES3</td><td>Higher Graphics Quality(Recommended)</td><td><a href = {{url_for("download_gles3")}} >Download Zip</a></td></tr>
+		<tr id = "GLES2"><td >OmniBall GLES2</td><td>Lower Graphics Quality for Older PCs</td><td><a href = {{url_for("download_gles2")}} >Download Zip</a></td></tr>
+	</table>
 </body>
 </html>
