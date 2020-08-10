@@ -1,1 +1,3 @@
 This website will be modified when I will upload any new game...
+Backend - Python (Flask framework)
+Frontend - Html, Css, Javascript
